@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_archive"
+        android:icon="@drawable/ic_archive"
+        app:showAsAction="always"
+        android:title="Archive" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"
+        android:title="Delete" />
+
+
+    <item
+        android:id="@+id/action_unread"
+        android:icon="@drawable/ic_mark_unread"
+        app:showAsAction="always"
+        android:title="Un read" />
+
+    <item
+        android:id="@+id/action_moveto"
+        app:showAsAction="never"
+        android:title="Move to" />
+
+    <item
+        android:id="@+id/action_snooze"
+        app:showAsAction="never"
+        android:title="Snooze" />
+
+
+</menu>

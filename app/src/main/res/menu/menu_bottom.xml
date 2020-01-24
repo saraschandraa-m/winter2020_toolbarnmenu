@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/action_trending"
+        android:icon="@drawable/ic_trending"
+        android:title="Trending" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_home"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/action_archive1"
+        android:icon="@drawable/ic_archive"
+        android:title=" Archive" />
+
+    <item
+        android:id="@+id/action_delete1"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete" />
+
+
+</menu>
